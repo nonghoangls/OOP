@@ -9,3 +9,4 @@ Try Hard OOP
     vd:con người: chạy, nhảy, bơi,ăn uống....
     ==> quy bài toán về các đối tượng, mỗi đối tượng lại có các thuộc tính và phương thức ==> thì gọi là lập trình hướng đối tượng
     
+dmmmmmmmmmmmmm
