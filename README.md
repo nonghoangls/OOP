@@ -23,6 +23,7 @@ VD: xe Mec là đối tượng của lớp Car,xe Mec có các thuộc tính nh�
 
 * Các tính chất của OOP
   - Tính Đóng Gói(Encasulation): hiểu nôm na ở đây ta có 1 cái hộp,trong đó ta để các item như bim bim,kẹo mút,sữa ông thọ,ba con sói..xong đó ta lấy băng dính dính chặt cái hộp lại và gọi 1 thằng ship đến để giao đồ đến điểm A. Lúc này thằng ship nó chỉ biết thứ nó ship là cái hộp chứ nó k biết thứ bên trong nó đem đi ship là gì và đó chính là tính chất đóng gói trong OOP
+    + thuộc tính của class là private và muốn lấy các thuộc tính đó thì phải thông qua hàm get & set
     + Việc sử dụng tính đóng gói là rất quan trọng trong lập trình! nhằm để bảo vệ nhưng thông tin nhạy cảm hoặc sự truy cập trái phép từ 1 bên nào đó.
   VD: public class conNguoi() {
            private int CCCD;
@@ -33,9 +34,13 @@ VD: xe Mec là đối tượng của lớp Car,xe Mec có các thuộc tính nh�
       
   - Tính Kế Thừa(Inheritance): Kể thừa là sự thừa hưởng. những gì mà class cha có thì class con sẽ đc thừa hưởng nhưng những gì class con có thì chưa chắc class cha có
     + Có method Overriding(ghi đè)(cũng có thể overload)
-    + Java không hỗ trợ đa kế thừa, vì thế có interface xuất hiện
+    + Java không hỗ trợ đa kế thừa(note: đơn kế thừa với lớp nhưng có thể đa kế thừa với interface), chỉ có đơn kế thừa 1 class con kế thừa 1 class ch, vì thế có interface xuất hiện
+    + Đa kế thừa thì có interface(bản chất của interface là chỉ muốn nêu ra thứ nó muốn làm còn việc thực hiện sẽ do lớp con implements đó thực hiện)
+    + VD: có interface nó có các chức năng như rút tiền hay tán gái
+          interface nó sẽ k nói cách rút tiền hay tán gái là như nào mà nó sẽ cho thằng class thực hiện các chức năng đó
     
   - Tính Đa Hình(Polymorphism): (Linh hoạt) Đa hình là cùng 1 method nhưng method đó có thể thực hiện nhiều chức năng khác, thực hiệm với inherit và interface
+    + Có 2 loại đa hình: Đa hình trong thời gian chạy(liên quan đến tc kế thừa và method overriding là sự lựa chọn; biến của class cha có thể tham chiếu đc đến biến của class con), Đa hình thời gian chạy và thời gian biên dịch(overloading)
     + Method thực hiện tính đa hình này có thể kể đến là Overload(overriding cũng đc)
       
   - Tính Trừu Tượng(Abstraction): Lớp và phương thức trừu tượng đc cho là ko cụ thể của class cha -> thay vào đó class con sẽ thực hiện hoá cụ thể phương thức của class cha
@@ -79,3 +84,6 @@ VD: xe Mec là đối tượng của lớp Car,xe Mec có các thuộc tính nh�
  * Getter and Setter: đc dùng khi các biến để ở chế độ private
    + Get là lấy ra dữ liệu(ko nhận gì nhưng phải return ra)
    + Set là thêm(thay đổi) dữ liệu
+* Phân biệt Abstract class và Interface
+  - Abs class nó chỉ là 1 lớp nên nó đơn kế thừa có các thuộc tính
+  - Interface nó cho phép đa kế thừa và nó k có thuộc tính (nếu có thuộc tính thì đó là các hằng)
