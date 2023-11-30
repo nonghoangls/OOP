@@ -15,7 +15,9 @@ Try Hard OOP
 * Object: là đối tượng thể hiện(instance) của một class
 VD: xe Mec là đối tượng của lớp Car,xe Mec có các thuộc tính như có 4 bánh,màu sơn,hãng sx..và có các method như tăng ga,đá số...
 
-* Phạm vi truy cập của biến: ![public,private...](https://github.com/nonghoangls/OOP/assets/85739308/7ef08ac0-922a-4744-823d-19feb3e623b5)
+* Phạm vi truy cập của biến:
+
+   ![public,private...](https://github.com/nonghoangls/OOP/assets/85739308/7ef08ac0-922a-4744-823d-19feb3e623b5)
 
   - Public: truy cập và đc truy cập vào tất cả các values
   - Private: truy cập đc trong 1 class thôi
