@@ -25,7 +25,7 @@ VD: xe Mec là đối tượng của lớp Car,xe Mec có các thuộc tính nh�
   - Protected: phạm vi truy cập trong và ngoài package nhưng phải thông qua tính kế thừa
 
 * Các tính chất của OOP
-  - Tính Đóng Gói(Encasulation): là việc "gói gọn" dữ liệu và các phương thức xử lý trong đối tượng nhằm sự truy cập trực tiếp từ bên ngoài, che dấu thông tin bla bla..
+  - Tính Đóng Gói(Encasulation): là việc "gói gọn" dữ liệu và các phương thức xử lý trong đối tượng nhằm ngăn chặn sự truy cập trực tiếp từ bên ngoài, che dấu thông tin bla bla..
     VD: hiểu nôm na ở đây ta có 1 cái hộp,trong đó ta để các item như bim bim,kẹo mút,sữa ông thọ,ba con sói..xong đó ta lấy băng dính dính chặt cái hộp lại và gọi 1 thằng ship đến để giao đồ đến điểm A. Lúc này thằng ship nó chỉ biết thứ nó ship là cái hộp chứ nó k biết thứ bên trong nó đem đi ship là gì và đó chính là tính chất đóng gói trong OOP
     + thuộc tính của class là private và muốn lấy các thuộc tính đó thì phải thông qua hàm get & set
     + Việc sử dụng tính đóng gói là rất quan trọng trong lập trình! nhằm để bảo vệ nhưng thông tin nhạy cảm hoặc sự truy cập trái phép từ 1 bên nào đó.
